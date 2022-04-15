@@ -1,0 +1,204 @@
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: black;
+  margin: 7% 12%;
+  color: white;
+
+}
+
+h2{
+  font-weight: 10rem;
+  font-size: 6rem;
+  font-family: 'Sansita Swashed', cursive;
+  color: white;
+}
+
+hr{
+  width:30%;
+  margin: 0 auto;
+
+}
+
+/* MULTI-ADOPTED SECTION */
+
+.bigHeading{
+  color: white;
+  font-size: 5.5rem;
+  margin: 0;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.smallHeading{
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 3rem;
+  margin: 7rem auto 3rem auto;
+
+}
+
+.textBody2{
+  line-height: 1.3;
+  font-size: 1.2rem;
+  color: grey;
+
+}
+
+/* .firstNote{
+  line-height: 1.3;
+  font-size: 1.5;
+  /* --bs-body-font-weight: 400; */
+  /* --bs-body-line-height: 1.5;
+  --bs-body-font-size: 1.5rem; */
+  /* -webkit-text-size-adjust: 200%; */
+} */
+
+/* LANDING PAGE SECTION */
+
+.backEnd2{
+  color: red;
+}
+
+.bImages{
+  width:130%;
+  padding: 1rem 0 2rem 0;
+}
+
+.caption{
+  color: red;
+  font-size: 7rem;
+  font-family: 'Sansita Swashed', cursive;
+  font-weight: bold;
+  line-height: 1.1;
+
+}
+
+
+.hello{
+  color: white;
+  font-size: 7rem;
+
+}
+
+.caption:hover{
+  animation-duration: 2s;
+  animation-name: slidein;
+   
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 15%;
+    width: 100%;
+  }
+}
+
+/* ABOUT SECTION */
+
+#about-section{
+  padding: 11rem 0 3rem  0 ;
+}
+
+.bodyText1{
+  line-height: 1.6;
+  font-size: 1.4rem;
+  padding-bottom: 1.1rem;
+}
+
+.about-heading{
+  font-size: 3rem;
+  padding: 7rem 2rem 1.7rem 0;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.myResume{
+  color: red;
+  font-size: 1.4rem;
+}
+
+.otherLogo{
+  position: fixed;
+  right: 5rem;
+  top: 3rem;
+  color: red;
+  font-size: 1.7rem;
+
+}
+
+.myResume:hover{
+  color: red;
+}
+
+.otherLogo:hover {
+  color: red;
+}
+
+/* PROJECT SECTION */
+
+ #project-section{
+  margin: 5rem auto 15rem auto;
+ }
+
+/* .bigWorkHeading{
+  color: white;
+  font-size: 5.5rem;
+  margin: 0;
+  font-family: 'Sansita Swashed', cursive;
+} */
+
+.projects{
+  margin: 4rem auto;
+}
+
+.project-heading{
+  text-align: center;
+  /* padding:  5rem auto 3rem auto; */
+
+}
+
+.smallWorkHeading{
+  color: red;
+  margin: 0;
+  font-size: 1.1rem;
+
+}
+
+.BH:hover {
+  color: white;
+}
+
+.SH:hover {
+  color: red;
+}
+/* CONTACT SECTION */
+
+#contact-section {
+  padding:  15rem auto 3rem auto;
+}
+
+/* .contactBigHeading{
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 6rem;
+  margin: 10rem auto 6rem auto;
+} */
+
+/* .contactSmallheading{
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+} */
+
+.contactIcons{
+  padding: 2rem 1rem 1rem 0;
+  color: red;
+}
+
+.contactName,.contactName:hover{
+  color: red;
+}
