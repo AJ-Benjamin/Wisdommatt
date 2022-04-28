@@ -26,7 +26,7 @@ hr{
 @media (max-width: 1100px) {
   .contactName{
     font-size: 1.5rem;
-    font-family: Montserrat;
+    font-family: 'Sansita Swashed', cursive;
   }
 
   h2 {
@@ -42,10 +42,6 @@ hr{
     font-size: 4.2rem;
   
   }
-  /* .caption{
-    font-size: 8.5rem;
-  } */
-   
 
 }
 
@@ -53,7 +49,7 @@ hr{
 @media (max-width: 900px) {
   .contactName{
     font-size: 3rem;
-    font-family: Montserrat;
+    font-family: 'Sansita Swashed', cursive;
   }
 
   h2 {
@@ -65,9 +61,11 @@ hr{
     
   }
 
-  /* a .contactIcons{
+  .contactIcons{
+    padding: 3.5rem 3rem 2.5rem 0;
+    color: red;
 
-  } */
+  }
 
   a.smallWorkHeading{
     font-size: 1.6rem;
@@ -78,14 +76,16 @@ hr{
     
   }
 
+  a.myResume{
+    font-size: 4rem; 
+  }
+
   a.otherLogo{
     position: fixed;
     right: 4rem;
     top: 6rem;
-    color: red;
     font-size: 4rem; 
-    font-family: 'Sansita Swashed', cursive;
-    /* font-weight: 2rem; */
+    
   
   }
 
@@ -102,10 +102,7 @@ hr{
     font-size: 1.7rem ;
   }
 
-  /* .caption{
-    font-size: 10.5rem;
-  } */
-   
+
 }
 
 
@@ -189,6 +186,8 @@ hr{
   line-height: 1.6;
   font-size: 1.4rem;
   padding-bottom: 1.1rem;
+   color: rgb(189, 189, 189);
+  
 }
 
 .about-heading{
@@ -199,8 +198,8 @@ hr{
 
 .myResume{
   color: red;
-  font-size: 1.4rem;
-  font-family: Montserrat;
+  font-size: 2rem; 
+  font-family: 'Sansita Swashed', cursive;
 }
 
 .otherLogo{
@@ -259,6 +258,23 @@ hr{
 .SH:hover {
   color: red;
 }
+
+/* Testimonial and carousel Section */
+
+.testimonialHeading{
+  font-size: 6rem;
+  font-family: 'Sansita Swashed', cursive;
+  /* padding: 10rem auto 7rem; */
+  margin:  10rem auto ;
+}
+
+
+.carousel-img{
+  width: 30%;
+  height: 20%;
+}
+
+
 /* CONTACT SECTION */
 
 #contact-section {
@@ -284,5 +300,5 @@ hr{
 
 .contactName,.contactName:hover{
   color: red;
-  font-family: Montserrat;
+  font-family: 'Sansita Swashed', cursive;
 }
