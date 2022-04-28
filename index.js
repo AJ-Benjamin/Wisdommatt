@@ -1,7 +1,5 @@
 // // LANDING PAGE
 
-//
-//
 document.querySelector(".hello").addEventListener("mouseover", helloTransition);
 
 function helloTransition() {
@@ -58,36 +56,5 @@ function wisdomReverse() {
   gsap.to(".wisdom", {duration: 2, x: -7, ease: "bounce"});
   
 }
-//
-//
-// ABOUT-section
 
-// var noOfBH = document.querySelectorAll(".BH").length;
-
-//  for (var i = 0; i < noOfBH; i++ ) {
-
-//   document.querySelectorAll(".BH")[i].addEventListener("mouseover", function() {
-
-    
-//       // alert("I was hovered");
-//       document.querySelector(".BH").style.color = "white";
-      
-//     });
-
-//  }
-
- 
-//  var noOfSH = document.querySelectorAll(".SH").length;
-
-//  for (var i = 0; i < noOfSH; i++ ) {
-
-//   document.querySelectorAll(".SH")[i].addEventListener("mouseover", function() {
-
-    
-//       // alert("I was hovered");
-//       document.querySelector(".SH").style.color = "red";
-      
-//     });
-
-//  }
 
