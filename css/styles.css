@@ -22,31 +22,9 @@ hr{
 
 }
 
-/* for tablet size and above */
-@media (max-width: 1100px) {
-  .contactName{
-    font-size: 1.5rem;
-    font-family: 'Sansita Swashed', cursive;
-  }
-
-  h2 {
-    font-size: 7.5rem; 
-  }
-
-
-  a .bigHeading {
-    font-size: 6rem;
-  }
-  
-  h3 .smallHeading {
-    font-size: 4.2rem;
-  
-  }
-
-}
 
 /* for phone size and above */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .contactName{
     font-size: 3rem;
     font-family: 'Sansita Swashed', cursive;
@@ -84,29 +62,25 @@ hr{
     position: fixed;
     right: 4rem;
     top: 6rem;
-    font-size: 4rem; 
-    
+    font-size: 4rem;   
   
   }
+
 
   p.caption{
     font-size: 10rem;
   }
 
   p.bodyText1{
-    font-size: 2rem;
+    font-size: 3rem;
 
   }
 
-  p.textBody2{
-    font-size: 1.7rem ;
-  }
-
+  p.textBody2, a.smallWorkHeading, p.lead, p.text-muted{
+    font-size: 2.5rem ;
+  } 
 
 }
-
-
-/* 1200 880 */
 
 /* MULTI-ADOPTED SECTION */
 
@@ -158,23 +132,6 @@ hr{
 
 }
 
-/* .caption:hover{
-  animation-duration: 2s;
-  animation-name: slidein;
-   
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 0%;
-    width: 100%;
-  }
-
-  to {
-    margin-left: 15%;
-    width: 100%;
-  }
-} */
 
 /* ABOUT SECTION */
 
@@ -209,7 +166,6 @@ hr{
   color: red;
   font-size: 2rem; 
   font-family: 'Sansita Swashed', cursive;
-  /* font-weight: 2rem;  */
 
 }
 
@@ -227,12 +183,6 @@ hr{
   margin: 5rem auto 15rem auto;
  }
 
-/* .bigWorkHeading{
-  color: white;
-  font-size: 5.5rem;
-  margin: 0;
-  font-family: 'Sansita Swashed', cursive;
-} */
 
 .projects{
   margin: 4rem auto;
@@ -240,7 +190,6 @@ hr{
 
 .project-heading{
   text-align: center;
-  /* padding:  5rem auto 3rem auto; */
 
 }
 
@@ -264,34 +213,25 @@ hr{
 .testimonialHeading{
   font-size: 6rem;
   font-family: 'Sansita Swashed', cursive;
-  /* padding: 10rem auto 7rem; */
   margin:  10rem auto ;
 }
 
+.lead{
+  color: grey;
+}
 
-.carousel-img{
+/* .carousel-img{
   width: 30%;
   height: 20%;
-}
+} */
 
 
 /* CONTACT SECTION */
 
 #contact-section {
-  padding:  15rem auto 3rem auto;
+  padding:  15rem auto 1rem auto;
 }
 
-/* .contactBigHeading{
-  font-family: 'Sansita Swashed', cursive;
-  font-size: 6rem;
-  margin: 10rem auto 6rem auto;
-} */
-
-/* .contactSmallheading{
-  font-family: 'Sansita Swashed', cursive;
-  font-size: 3rem;
-  padding-bottom: 2rem;
-} */
 
 .contactIcons{
   padding: 2rem 1rem 1rem 0;
@@ -301,4 +241,8 @@ hr{
 .contactName,.contactName:hover{
   color: red;
   font-family: 'Sansita Swashed', cursive;
+}
+
+.letsCreate{
+  margin: 8rem auto;
 }
